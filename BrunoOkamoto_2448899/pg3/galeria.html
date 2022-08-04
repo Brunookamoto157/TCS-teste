@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <style>
+        .button {
+          display: inline-block;
+          border-radius: 4px;
+          background-color: cornflowerblue;
+          border: none;
+          color: #FFFFFF;
+          text-align: center;
+          font-size: 28px;
+          padding: 20px;
+          width: 200px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 5px;
+        }
+        
+        .button span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+        
+        .button span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+        
+        .button:hover span {
+          padding-right: 25px;
+        }
+        
+        .button:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+        </style>
+</head>
+<body>
+    <center>
+        <img src="black-fox-2.png" alt="">
+    </center>
+    <hr>
+    <center>
+    <section id="section_galeria">
+        <table>
+            <tr>
+                <td>
+                    <div>
+                        <a href="home.html"> <button class="button" style="vertical-align:middle"><span>Home </span></button></a>
+                        </div>
+                </td>
+                <td>
+                    <div>
+                        <a href="pessoal.html"><button class="button" style="vertical-align:middle"><span>Pessoal </span></button></a>
+                        </div>
+                </td>
+                <td>
+                    <div>
+                        <a href="galeria.html"><button class="button" style="vertical-align:middle"><span>Galeria </span></button></a>
+                        </div>
+                </td>
+            </tr>
+        </table>
+    </section>
+    </center>
+    <table>
+        <tr>
+            <td><img src="download.gif" alt=""></td>
+            <td><h2>Eu adoro jogos de estratégia, pricipalmente jogos da franquia Pokémon.</h2></td>
+        </tr>
+        <tr>
+            <td><img src="download (1).gif" alt=""></td>
+            <td><h2>Pretendo ir morar no Japão ou no mínimo visitar</h2></td>
+        </tr>
+        <tr>
+            <td><img src="d8760f_d5403240a81348078d66b4ceae19d995.gif" alt=""></td>
+            <td>
+                <h2>Meu objetivo é trabalhar na produção de jogos digitais independentes ou em empresas grandes como Nintendo ou Sony.</h2>
+            </td>
+        </tr>
+    </table>
+    <center>
+        <p>
+            Bruno Yuji de Souza Okamoto
+        </p>
+    </center>
+</body>
+</html>
